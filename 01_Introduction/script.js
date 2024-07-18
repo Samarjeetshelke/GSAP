@@ -50,7 +50,7 @@ gsap.from("#t1",{
     duration:2,
     opacity:0
 })*/
-
+/*
 gsap.from("#t1",{
     opacity:0,
     duration:2,
@@ -77,6 +77,14 @@ gsap.from("#t3",{
     y:100,
     delay:1,
     scale:4
+})
+
+*/
+
+gsap.from("h1",{
+    opacity:0,
+    duration:4,
+    stagger:1,//add one after another
 })
 
 
